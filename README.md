@@ -1,5 +1,4 @@
-# GPS-and-BDS-Satellite-Position-Calculatio-Program
+# GPS和BDS卫星位置计算软件
 tmp
-This project is written in VB.NET and consists of 3 mainly modules：data input、data processing、result output.
-As a result, the output module still has a problem to be solved:
-When the result is output as xlsm type, the data cannot be displayed normally.
+本软件系根据GPS和BDS卫星位置计算公开算法设计的，能读取基于RINEX版本的卫星星历，提取有关卫星位置计算的各种系数，计算卫星位置。
+本软件还提供了产品输出功能，能将系数和结果输出为TXT格式和XLSM格式。
